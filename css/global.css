@@ -1,0 +1,89 @@
+body{
+	padding: 0;
+	margin: 0;
+	background: #f4f4f4;
+	font-family: Arial;
+}
+
+#holder{
+	display: inline-block;
+	width: 100%;
+	min-height: 300px;
+	background: cornflowerblue;
+	border-bottom: thin solid #242424;
+	text-align:center;
+}
+
+#numbers{
+	width: 100px;
+	min-height: 50px;
+	color: #fff;
+	font-size: 4em;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+
+#roll{
+	width: 100px;
+	height: 30px;
+	background: #6666FF;
+	border: thin solid #f4f4f4;
+	font-size: 1.4em;
+	color: #fff;
+	border-radius: 3px;
+}
+
+#roll:hover{
+	background: #6E82F5;
+	cursor: pointer;
+}
+
+#total{
+	width: 350px;
+	min-height: 50px;
+	margin: 0 auto;
+	margin-top: 20px;
+	font-size: 2em;
+	color: #fff;
+}
+
+#winnings-holder{
+	width: 60%;
+	min-height: 200px;
+	margin: 0 auto;
+	margin-top: 40px;
+}
+
+#winnings-holder > h2{
+	color: #242424;
+}
+
+#winnings-holder > hr{
+	height: 0.2px;
+	border: thin solid #ccc;
+}
+
+.winnings{
+	width: 200px;
+	min-height:50px;
+	float: left;
+	border: thin solid #6E82F5;
+	border-radius: 50px;
+	margin-top: 10px;
+	margin-left: 10px;
+	padding: 10px;
+	line-height:50px;
+	font-size:1.2em;
+	color: #242424;
+}
+
+.winnings:hover{
+	background: #FAFAFA;
+}
+
+.winnings > img{
+	width: 40px;
+	height: 40px;
+	float: right;
+	margin-right:20px;
+}
